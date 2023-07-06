@@ -1,0 +1,12 @@
+loglog is a tool that can:
+1. print different color as to different thread;
+2. indent when get into a deeper call;
+3. use >> as a sign of call start;
+4. use << as a sign of call end;
+
+mkdir build
+cd build
+cmake ..
+make
+
+./test
